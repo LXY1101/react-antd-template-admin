@@ -28,6 +28,6 @@
   - 2、react-activation，项目就使用这个插件
   - 3、react-kepper，需要将项目的 react-router 替换掉，风险较大
   - 4、react-router 自身没有路由缓存的特性，在 5.x 版本之前，我们可以基于 react-router-cache-route 来实现路由缓存功能。但是 react-router 6.x 在实现上做了比较大的变化，react-router-cache-route 没有提供相应的支持。
-  - 5、可关注 React 18.x 中的官方实践<Offscreen />，但该 api 还完善中
+  - 5、可关注 React 18.x 中的官方实践Offscreen，但该 api 还完善中
 
 
