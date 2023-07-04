@@ -1,0 +1,21 @@
+├── _docs                   # 存放项目相关文档
+├── public                  # 这个是webpack的配置的静态目录 该目录下的文件都不会被webpack进行加载、解析、打包；通过npm run build进行打包时该项目下的所有文件将会直接被复制到build目录下；
+│   ├── favicon.ico         # 网站图标[可替换删除]
+│   ├── index.html          # 默认是单页面应用，这个是最终的html的基础模板 webpack打包后将输出文件引入到该模板内；补充：index.html中通过环境变量%PUBLIC_URL% 来指向public目录路径
+│   └── manifest.json       # PWA将应用添加至桌面的功能的实现依赖于 manifest.json 。通过manifest.json 文件可以对图标、名称等信息进行配置。
+├── src
+│   ├── assets              # 静态文件存放目录，图片和样式文件
+│   ├── components          # 公共组件
+│   ├── config              # webpack配置文件
+│   ├── const               # 常量文件夹
+│   ├── hooks               # 自定义hooks
+│   ├── pages               # 页面文件夹
+│   ├── routes              # 路由文件
+│   ├── services            # 接口api配置文件
+│   ├── stores              # store
+│   ├── utils               # 工具包
+│   ├── index.css           # 启动文件样式
+│   ├── index.js            # 启动的文件（开始执行的入口）！！！！
+├── tsconfig.json           # 增强VS Code操作javascript项目的能力。比如webpack设置了文件夹别名，用绝对路径定义文件地址，没有tsconfig.json时，Ctrl+左键点击引入的路径是不能跳转到对应文件地址的，而配置后，VSCode将能识别到并支持，并且使用绝对路径时能提供提示。
+├── package.json
+└── yarn.lock

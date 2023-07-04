@@ -1,0 +1,10 @@
+{
+  "baseName": "ICE管理后台",
+  "login": {
+    "username": "请输入用户名",
+    "password": "请输入密码"
+  },
+  "btn": {
+    "login": "登录"
+  }
+}

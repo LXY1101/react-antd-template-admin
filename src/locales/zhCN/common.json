@@ -1,0 +1,24 @@
+{
+  "menu": {
+    "homePage": "首页",
+    "user": "用户管理",
+    "order": "订单管理",
+    "commodity": "商品管理",
+    "operation": "运营管理",
+    "userInfo": "用户信息",
+    "accountChanges": "账户变动",
+    "transactionOrder": "交易订单",
+    "salesOrder": "出售单管理",
+    "purchaseOrder": "求购单管理",
+    "SPU": "SPU管理",
+    "sku": "sku管理",
+    "banner": "Banner配置",
+    "businessConfig": "业务参数配置",
+    "mailConfig": "站内信配置",
+    "editMail": "编辑站内信",
+    "addMail": "新建站内信",
+    "workOrder": "工单处理",
+    "recommended": "推荐内容配置"
+  },
+  "baseName": "ICE管理后台"
+}

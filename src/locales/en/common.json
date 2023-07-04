@@ -1,0 +1,24 @@
+{
+  "menu": {
+    "homePage": "HomePage",
+    "user": "User",
+    "order": "Order",
+    "commodity": "Commodity",
+    "operation": "Operation",
+    "userInfo": "User Information",
+    "accountChanges": "Account Changes",
+    "transactionOrder": "Transaction Order",
+    "salesOrder": "Sales Order",
+    "purchaseOrder": "Purchase Order",
+    "SPU": "SPU",
+    "sku": "sku",
+    "banner": "Banner",
+    "businessConfig": "Business Parameter",
+    "mailConfig": "Mail",
+    "editMail": "Edit Mail",
+    "addMail": "Add Mail",
+    "workOrder": "Work Order",
+    "recommended": "Recommended"
+  },
+  "baseName": "ICE管理后台"
+}

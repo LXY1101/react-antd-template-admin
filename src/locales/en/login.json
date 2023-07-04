@@ -1,0 +1,10 @@
+{
+  "baseName": "ICE management backend",
+  "login": {
+    "username": "please enter the username",
+    "password": "please enter the password"
+  },
+  "btn": {
+    "login": "login"
+  }
+}

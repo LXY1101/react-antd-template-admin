@@ -1,0 +1,83 @@
+{
+  "name": "ice-admin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "craco start",
+    "build": "cross-env GENERATE_SOURCEMAP=false craco build",
+    "build:test": "cross-env APP_ENV=test GENERATE_SOURCEMAP=false craco build",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.21",
+    "@types/react": "^18.0.30",
+    "@types/react-dom": "^18.0.11",
+    "ahooks": "^3.3.12",
+    "antd": "^5.3.1",
+    "axios": "^1.3.4",
+    "classnames": "^2.3.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "cos-js-sdk-v5": "^1.3.9",
+    "history": "^5.1.0",
+    "i18next": "^22.4.15",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.2.0",
+    "idfe-utils": "1.0.8",
+    "json-bigint": "^1.0.0",
+    "react": "^18.2.0",
+    "react-activation": "^0.12.2",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.2",
+    "react-redux": "7.2.5",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "redux": "4.1.1",
+    "redux-thunk": "2.3.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@craco/craco": "^6.4.3",
+    "compression-webpack-plugin": "^5.0.1",
+    "concurrently": "^6.4.0",
+    "craco-less": "^2.0.0",
+    "cross-env": "^7.0.3",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.2",
+    "json-server": "^0.17.0",
+    "lint-staged": "^12.1.2",
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,css,md,ts,tsx,jsx}": "prettier --write"
+  }
+}

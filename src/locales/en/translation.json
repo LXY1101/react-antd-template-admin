@@ -1,0 +1,23 @@
+{
+    "menu": {
+        "homePage": "HomePage",
+        "user": "User Management",
+        "order": "Order Management",
+        "commodity": "Commodity Management",
+        "operation": "Operation Management",
+        "userInfo": "User Information",
+        "accountChanges": "Account Changes",
+        "transactionOrder": "Transaction Order",
+        "salesOrder": "Sales Order Management",
+        "purchaseOrder": "Purchase Order Management",
+        "SPU": "SPU Management",
+        "sku": "sku Management",
+        "banner": "Banner Configuration",
+        "businessConfig": "Business Parameter Configuration",
+        "mailConfig": "Mail Configuration",
+        "editMail": "Edit Mail",
+        "addMail": "Add Mail",
+        "workOrder": "Work Order Processing",
+        "recommended": "Recommended Content Configuration"
+    }
+}

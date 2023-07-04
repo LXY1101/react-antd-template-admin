@@ -1,0 +1,33 @@
+@import 'variables.less';
+@import 'theme/primary/index.less';
+@import 'reset.less';
+@import 'resetAntd.less';
+
+@import 'extend.less';
+@import 'layout.less';
+@import 'function.less';
+@import 'icon.less';
+@import 'form.less';
+@import 'button.less';
+@import 'keyframes.less';
+
+// 页面包裹层
+.g-app {
+  min-height: 100vh;
+  min-width: 1200px;
+  font-size: var(--font-size);
+  font-family: var(--primary-font-family);
+  line-height: var(--line-height);
+  color: var(--primary-color);
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  &.s-position {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: none;
+  }
+}

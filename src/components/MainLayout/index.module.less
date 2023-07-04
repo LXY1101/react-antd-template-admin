@@ -1,0 +1,80 @@
+.wrap {
+  min-height: 100vh;
+}
+
+// 主体内容样式
+.content {
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+
+  :global {
+    .ant-tabs-content-holder {
+      margin: 0 var(--cell-mg) var(--cell-mg) var(--cell-mg);
+    }
+    .ant-tabs-nav {
+      padding-left: 2px;
+      margin-bottom: var(--cell-mg-vert);
+    }
+  }
+}
+
+// 菜单
+.sider {
+  border-inline-end: 1px solid rgba(5, 5, 5, 0.06);
+}
+
+// 头部样式
+.header {
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  z-index: 9;
+  align-items: center;
+  padding-inline: 0px;
+  background: transparent;
+  box-shadow: 0 0.3px 0.9px rgba(0, 0, 0, 0.12), 0 1.6px 3.6px rgba(0, 0, 0, 0.12);
+
+  .rightContainer {
+    display: flex;
+    align-items: center;
+
+    .menu {
+      margin: 0 10px;
+    }
+
+    .activeItem {
+      display: flex;
+      gap: 4px;
+      cursor: pointer;
+      line-height: 22px;
+    }
+
+    :global {
+      .ant-menu {}
+
+      .ant-switch .ant-switch-inner .ant-switch-inner-unchecked {
+        margin-top: -23px;
+        margin-inline-start: 2px;
+      }
+
+      .ant-switch.ant-switch-checked .ant-switch-inner {
+        padding-inline-start: 7px;
+      }
+    }
+  }
+
+  .button {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+}
+
+:global {}

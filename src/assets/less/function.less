@@ -1,0 +1,46 @@
+// 功能样式、可复用样式
+
+// 隐藏滚动条
+.hideScroll {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// 定位水平垂直居中
+.posCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+// 水平方向居中
+.posCenterL {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+// 垂直方向居中
+.posCenterT {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// 隐藏菜单
+.hideMenu {
+  display: none !important;
+}
+
+// 边距
+.mr-small{
+  margin-right: 10px;
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+
+.mr-16{
+  margin-right: 16px;
+}
