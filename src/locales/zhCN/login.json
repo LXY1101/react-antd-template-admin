@@ -1,5 +1,5 @@
 {
-  "baseName": "ICE管理后台",
+  "baseName": "管理后台",
   "login": {
     "username": "请输入用户名",
     "password": "请输入密码"

@@ -1,6 +1,6 @@
 // 常量
 // 尾部加项目包名，用于和其他项目区分，连接符统一用下划线
-const PACKAGE_NAME = 'ice-admin'.toLocaleUpperCase().replace(/-/gi, '_');
+const PACKAGE_NAME = 'admin'.toLocaleUpperCase().replace(/-/gi, '_');
 
 // 本地存储用户令牌
 export const LOCAL_TOKEN = `LOCAL_TOKEN_${PACKAGE_NAME}`;
